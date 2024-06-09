@@ -365,13 +365,12 @@ footer nav a {
     
     .heroblock__form input {
         width: 100%;
-        flex-basis: 220px;
+        flex-basis: 240px;
     }
     
     .heroblock__form button {
         width: 100%;
         flex-grow: 1;
-        /* flex: 1; */
     }
     
     .products {
