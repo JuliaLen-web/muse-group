@@ -1,19 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
 
     <title>Muse Group</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">    
+
     <link href="./assets/css/app.css" rel="stylesheet">
 </head>
+
 <body>
-    
+    <header>
+        <a href="/" class="logo">
+            <img src="./assets/images/svg/logo.svg" alt="" logo>
+        </a>
+    </header>
+    <main class="content-grid">
+        <section class="heroblock">
+            <h1>Muse Group Frontend Academy</h1>
+            <p>Our academy offers a transformative learning experience designed to empower you with the skills and
+                knowledge needed to succeed in the ever-evolving field of frontend development.</p>
+            <div class="heroblock__image">
+                <img src="./assets/images/image-holder.png" alt="banner">
+            </div>
+            <p class="medium-text">Are you ready to turn your passion for technology into a thriving career?</p>
+            <form class="heroblock__form" id="form-join">
+                <input name="email" type="email" placeholder="Email">
+                <button type="submit" class="button button--bg">
+                    <span>Join</span>
+                    <img src="./assets/images/svg/arrow-right.svg">
+                </button>
+            </form>
+        </section>
+        <section class="products">
+            <h1>Our products</h1>
+            <div class="products__wrap">
+                <div class="card card--yellow">
+                    <div class="card__bg"></div>
+                    <div class="card__content">
+                        <h2>Ultimate Guitar</h2>
+                        <p class="medium-text">The best platform for music makers to play songs they love. Home to the
+                            world's largest music
+                            community.</p>
+                            <a href="#" class="button button--link">
+                                <span>Read more</span>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_45_202)">
+                                        <path d="M5.25 2.625L9.625 7L5.25 11.375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_45_202">
+                                            <rect width="14" height="14" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                    </div>
+                </div>
+                <div class="card card--lightblue">
+                    <div class="card__bg"></div>
+                    <div class="card__content">
+                        <h2>MuseScore</h2>
+                        <p class="medium-text">Create, play back, and print sheet music with free open source notation
+                            software.</p>
+                            <a href="#" class="button button--link">
+                                <span>Read more</span>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_45_202)">
+                                        <path d="M5.25 2.625L9.625 7L5.25 11.375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_45_202">
+                                            <rect width="14" height="14" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                    </div>
+                </div>
+                <div class="card card--red">
+                    <div class="card__bg"></div>
+                    <div class="card__content">
+                        <h2>audio.com</h2>
+                        <p class="medium-text">The easiest way to share any sound online.</p>
+                        <a href="#" class="button button--link">
+                            <span>Read more</span>
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_45_202)">
+                                    <path d="M5.25 2.625L9.625 7L5.25 11.375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_45_202">
+                                        <rect width="14" height="14" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="card card--blue">
+                    <div class="card__bg"></div>
+                    <div class="card__content">
+                        <h2>Audacity</h2><!--  -->
+                        <p class="medium-text">The world's most popular audio editing and recording app.</p>
+                        <a href="#" class="button button--link">
+                            <span>Read more</span>
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_45_202)">
+                                    <path d="M5.25 2.625L9.625 7L5.25 11.375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_45_202">
+                                        <rect width="14" height="14" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="social-links">
+                <a href="https://www.instagram.com/animaapp/" class="social-links__item">
+                    <img src="./assets/images/svg/instagram.svg" alt="">
+                </a>
+                <a href="https://twitter.com/AnimaApp" class="social-links__item">
+                    <img src="./assets/images/svg/telegram.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/company/anima-app" class="social-links__item">
+                    <img src="./assets/images/svg/linkedIn.svg" alt="">
+                </a>
+                <a href="https://discord.gg/eQxkYTNxSp" class="social-links__item">
+                    <img src="./assets/images/svg/facebook.svg" alt="">
+                </a>
+            </div>
+            <p class="medium-text">
+                You're not just a student - you're part of a vibrant community of like-minded individuals united by a
+                passion for frontend development. Collaborate, innovate, and grow alongside fellow learners and industry
+                professionals as you embark on this exciting journey together.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <a href="https://support.animaapp.com/en/" class="small-text">Help Center</a>
+            <a href="https://forum.animaapp.com/privacy" class="small-text">Privacy Policy</a>
+            <a href="https://forum.animaapp.com/tos" class="small-text">Terms of Service</a>
+        </nav>
+    </footer>
 </body>
-    <script src="./assets/js/app.js"></script>
+<script src="./assets/js/app.js"></script>
+
 </html>
