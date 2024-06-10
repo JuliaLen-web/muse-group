@@ -18,9 +18,7 @@ window.addEventListener('load', () => {
 
     formInput.addEventListener('input', ({ target }) => {
         target.setCustomValidity('')
-        if (target.checkValidity() && emailIsValid(target.value)) {
-            valid = true
-        }
+        valid = target.checkValidity() && emailIsValid(target.value) ? true : false
     });
 
     formInput.addEventListener('invalid', ({ target }) => {
